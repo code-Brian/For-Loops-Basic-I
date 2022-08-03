@@ -25,3 +25,8 @@ for x in range(1,500001):
         sum = sum + x
 
 print(sum)
+
+# Countdown by fours - print positive numbers starting at 2018, counting down by fours
+for x in range(2018,0,-4):
+    if(x % 2 == 0):
+        print(x)
