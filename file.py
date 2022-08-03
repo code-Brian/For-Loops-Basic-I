@@ -30,3 +30,15 @@ print(sum)
 for x in range(2018,0,-4):
     if(x % 2 == 0):
         print(x)
+
+# Flexible Counter - Set three variables: lowNum, highNum, mult. 
+# Starting at lowNum and going through highNum, print only the integers that are a multiple of mult.
+# for example, if lowNum = 2, highNum = 9, and mult = 3, the loop should print: 3, 6, 9 (on successive lines)
+print("\n")
+lowNum = 2
+highNum = 10
+mult = 5
+
+for x in range(lowNum, highNum + 1, 1):
+    if (x % mult == 0):
+        print(x)
